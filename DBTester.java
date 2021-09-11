@@ -308,6 +308,7 @@ public class DBTester extends javax.swing.JFrame {
             op.setText(op.getText()+"[ ERROR ]");
             op.setText(op.getText()+"\nError details are : \n"+e);
             result = 1;
+            err += 1;
         }
         try
         {
@@ -327,6 +328,7 @@ public class DBTester extends javax.swing.JFrame {
             op.setText(op.getText()+"[ ERROR ]");
             op.setText(op.getText()+"\nError details are : \n"+e1);
             result++;
+            err += 1;
         }
         try
         {
@@ -339,6 +341,7 @@ public class DBTester extends javax.swing.JFrame {
             op.setText(op.getText()+"[ ERROR ]");
             op.setText(op.getText()+"\nError details are : \n"+e2);
             result++;
+            err += 1;
         }
         if(result==0)
            op.setText("");
@@ -398,7 +401,8 @@ public class DBTester extends javax.swing.JFrame {
     }//GEN-LAST:event_settingsActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-System.exit(0);
+        System.out.println("Error Code": err);
+        System.exit(0);
     }//GEN-LAST:event_jButton3ActionPerformed
     
     /** Exit the Application */
@@ -427,6 +431,7 @@ System.exit(0);
     private java.awt.TextArea op;
     private javax.swing.JTextField query;
     private javax.swing.JButton settings;
+    private int err;
     // End of variables declaration//GEN-END:variables
     
 }
