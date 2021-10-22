@@ -6,7 +6,7 @@
 
 /**
  *
- * @author  Omkar
+ * @author  K Chandrasekhar Omkar
  */
 import java.sql.*;
 import java.util.*;
