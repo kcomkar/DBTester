@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="DBTester1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/DBTester.zip!/" />
+      <root url="jar://$PROJECT_DIR$/dbtestingtool.zip!/" />
+      <root url="jar://$PROJECT_DIR$/DBTester.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
